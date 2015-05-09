@@ -1,0 +1,485 @@
+2014-02-24 15:40:28 Error: [MissingControllerException] Controller class FredsController could not be found.
+Exception Attributes: array (
+  'class' => 'FredsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_4/freds/qwerty/99
+Stack Trace:
+#0 F:\davison2014\xampp\htdocs\cakephp_2_4\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-16 17:00:37 Error: Fatal Error (1): Call to a member function login() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\UsersController.php, line 22]
+2015-03-16 17:00:38 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /uscms26/users/login
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:00:59 Error: Fatal Error (1): Call to a member function deny() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\PostsController.php, line 10]
+2015-03-16 17:00:59 Error: [FatalErrorException] Call to a member function deny() on null
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:01:09 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /uscms26/Post/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-16 17:01:26 Error: Fatal Error (1): Call to a member function deny() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\PostsController.php, line 10]
+2015-03-16 17:01:26 Error: [FatalErrorException] Call to a member function deny() on null
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:02:43 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PostsController))
+#7 F:\sss_md1\htdocs\uscms26\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 F:\sss_md1\htdocs\uscms26\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 F:\sss_md1\htdocs\uscms26\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-07 15:29:12 Error: [MissingActionException] Action PostsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logout',
+)
+Request URL: /assessment_2/posts/logout/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-07 16:59:11 Error: [MissingControllerException] Controller class UsresController could not be found.
+Exception Attributes: array (
+  'class' => 'UsresController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/usres/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-07 18:47:30 Error: Fatal Error (4): syntax error, unexpected ')' in [E:\xampp\htdocs\assessment_2\app\Controller\AppController.php, line 62]
+2015-05-07 18:47:30 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 62, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 62, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 18:51:58 Error: Fatal Error (1): Using $this when not in object context in [E:\xampp\htdocs\assessment_2\app\Controller\AppController.php, line 52]
+2015-05-07 18:51:58 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 18:54:21 Error: Fatal Error (1): Using $this when not in object context in [E:\xampp\htdocs\assessment_2\app\Controller\AppController.php, line 52]
+2015-05-07 18:54:21 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 18:54:25 Error: Fatal Error (1): Using $this when not in object context in [E:\xampp\htdocs\assessment_2\app\Controller\AppController.php, line 52]
+2015-05-07 18:54:25 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /assessment_2/users/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'E:\xampp\htdocs...', 52, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 19:01:02 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp, line 140]
+2015-05-07 19:01:02 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 140, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 140, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 19:01:54 Error: Fatal Error (4): syntax error, unexpected end of file in [E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp, line 140]
+2015-05-07 19:01:54 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 140, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 140, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-07 19:02:16 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp(19): View->__get('Auth')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(961): include('E:\xampp\htdocs...')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(923): View->_evaluate('E:\xampp\htdocs...', Array)
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(473): View->_render('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-07 19:02:48 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp(19): View->__get('Auth')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(961): include('E:\xampp\htdocs...')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(923): View->_evaluate('E:\xampp\htdocs...', Array)
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(473): View->_render('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-07 19:03:47 Error: [MissingHelperException] Helper class authHelper could not be found.
+Exception Attributes: array (
+  'class' => 'authHelper',
+  'plugin' => false,
+)
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('auth')
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(848): HelperCollection->__isset('auth')
+#2 E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp(27): View->__get('auth')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(961): include('E:\xampp\htdocs...')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(923): View->_evaluate('E:\xampp\htdocs...', Array)
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(473): View->_render('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-07 19:05:28 Error: Fatal Error (4): syntax error, unexpected '?' in [E:\xampp\htdocs\assessment_2\app\View\Users\view.ctp, line 22]
+2015-05-07 19:05:28 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /assessment_2/users/view/8
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 22, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 22, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:41:25 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/add/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 00:00:39 Error: [MissingHelperException] Helper class FormEnumHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FormEnumHelperHelper',
+  'plugin' => false,
+)
+Request URL: /assessment_2/users/add
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(897): HelperCollection->load('FormEnumHelper', Array)
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1247): View->__construct(Object(UsersController))
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(946): Controller->_getViewObject()
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-05-09 00:01:03 Error: [MissingHelperException] Helper class FormEnumHelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FormEnumHelperHelper',
+  'plugin' => false,
+)
+Request URL: /assessment_2/users/add
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(897): HelperCollection->load('FormEnumHelper', Array)
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1247): View->__construct(Object(UsersController))
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(946): Controller->_getViewObject()
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-05-09 00:04:30 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/add
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 00:04:50 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/add
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 00:25:04 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/login/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 01:10:29 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/logout
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 03:15:39 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/login/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 03:34:55 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /assessment_2/users/edit/14
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-09 10:15:19 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\xampp\htdocs\assessment_2\app\View\Users\index.ctp, line 29]
+2015-05-09 10:15:19 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /assessment_2/users/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 29, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 29, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 10:15:55 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\xampp\htdocs\assessment_2\app\View\Users\index.ctp, line 29]
+2015-05-09 10:15:55 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /assessment_2/users/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 29, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 29, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 11:17:14 Error: Fatal Error (4): syntax error, unexpected ';' in [E:\xampp\htdocs\assessment_2\app\Controller\CommentsController.php, line 27]
+2015-05-09 11:17:14 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assessment_2/comments/view/17
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 27, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 27, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 11:18:28 Error: Fatal Error (4): syntax error, unexpected ';' in [E:\xampp\htdocs\assessment_2\app\Controller\CommentsController.php, line 27]
+2015-05-09 11:18:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /assessment_2/comments/view/17
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 27, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 27, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 11:25:56 Error: Fatal Error (1): Call to a member function read() on a non-object in [E:\xampp\htdocs\assessment_2\app\Controller\CommentsController.php, line 113]
+2015-05-09 11:25:56 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /assessment_2/comments/view/17
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\xampp\htdocs...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\xampp\htdocs...', 113, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\xampp\htdocs...', 113, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 21:32:45 Error: Fatal Error (4): syntax error, unexpected ''file_size'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in [E:\xampp\htdocs\assessment_2\app\Model\Post.php, line 16]
+2015-05-09 21:32:45 Error: [FatalErrorException] syntax error, unexpected ''file_size'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+Request URL: /assessment_2/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 16, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 16, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 21:40:41 Error: [MissingControllerException] Controller class LougoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LougoutController',
+  'plugin' => NULL,
+)
+Request URL: /assessment_2/lougout/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 21:48:37 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [E:\xampp\htdocs\assessment_2\app\View\Posts\add.ctp, line 9]
+2015-05-09 21:48:37 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /assessment_2/posts/add
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\xampp\htdocs...', 9, Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\xampp\htdocs...', 9, Array)
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 23:43:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'sss16\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /assessment_2/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#9 E:\xampp\htdocs\assessment_2\app\Controller\PostsController.php(20): Controller->paginate()
+#10 [internal function]: PostsController->index()
+#11 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-05-09 23:43:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'sss16\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /assessment_2/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#9 E:\xampp\htdocs\assessment_2\app\Controller\PostsController.php(20): Controller->paginate()
+#10 [internal function]: PostsController->index()
+#11 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-05-10 00:20:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'sss16\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /assessment_2/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#9 E:\xampp\htdocs\assessment_2\app\Controller\PostsController.php(20): Controller->paginate()
+#10 [internal function]: PostsController->index()
+#11 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-05-10 00:20:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'sss16\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /assessment_2/
+Stack Trace:
+#0 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\xampp\htdocs\assessment_2\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 E:\xampp\htdocs\assessment_2\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#9 E:\xampp\htdocs\assessment_2\app\Controller\PostsController.php(20): Controller->paginate()
+#10 [internal function]: PostsController->index()
+#11 E:\xampp\htdocs\assessment_2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 E:\xampp\htdocs\assessment_2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 E:\xampp\htdocs\assessment_2\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
