@@ -47,7 +47,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					<li><?php echo $this->Html->link(__('Posts'), array('controller' => 'posts', 'action' => 'index')); ?> </li>
 					<li><?php echo $this->Html->link(__('users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 					<li><?php echo $this->Html->link(__('Login'), array('controller' => 'users', 'action' => 'login')); ?> </li>
-					<li><?php echo $this->Html->link(__('logout'), array('controller' => 'users', 'action' => 'logout')); ?> </li>
+					<li><?php if ($logged_in) echo $this->Html->link(__('logout'), array('controller' => 'users', 'action' => 'logout')); ?> </li>
 					</ul>
 				</div>
 			</div>
